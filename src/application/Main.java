@@ -9,10 +9,7 @@ public class Main {
 		
 		Locale.setDefault(Locale.US);
 		Scanner scanner = new Scanner (System.in);
-		
-		System.out.println("*** Verifying the quadrant where the coordinates belong ***");
-		System.out.println();
-		
+				
 		System.out.print("Enter the X coordinate: ");
 		double x = scanner.nextDouble();
 		System.out.print("Enter the Y coordinate: ");
